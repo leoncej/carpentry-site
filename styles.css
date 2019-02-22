@@ -1,0 +1,269 @@
+body {
+    margin: 0;
+}
+
+.navbar-container {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    top: 0;
+    padding: 16px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+}
+
+.navbar-content-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar-content-container a {
+    text-decoration: none;
+    cursor: pointer;
+    line-height: 20px;
+    color: #000;
+}
+
+.company-name {
+    font-size: 20px;
+    font-family: 'Playfair Display SC', serif;
+}
+
+.mlc {
+    font-weight: 800;
+    letter-spacing: 4px;
+    font-size: 30px;
+}
+
+.title-separator {
+    padding-left: 10px;
+    padding-right: 5px;
+}
+
+.navbar-links a {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    padding-right: 20px;
+    padding-left: 10px;
+    font-size: 12px;
+    border-left: solid 3px #fff;
+}
+
+.navbar-links a:hover {
+    border-left: solid 3px #000;
+}
+
+.page-content-container {
+    width: 85%;
+    margin: 36px auto;
+}
+
+.landing-img {
+    width: 100%;
+    height: 70vh;
+    object-fit: cover;
+}
+
+.landing-img-title {
+    position: absolute;
+    right: 7.5%;
+    margin-top: -160px;
+    padding: 20px;
+    color: #fff;
+    font-family: 'Playfair Display SC', serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 30px;
+    font-weight: 100;
+}
+
+.landing-img-text {
+    position: absolute;
+    right: 7.5%;
+    margin-top: -100px;
+    padding: 20px;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 12px;
+}
+
+.section-title {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 20px;
+    padding-bottom: 20px;
+    border-bottom: solid 1px #F0F0F0;
+}
+
+.projects-container,
+.about-container,
+.contact-container {
+    margin-bottom: 100px;
+}
+
+.projects-container {
+    padding: 30px;
+}
+
+.img-gallery {
+    margin: 50px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.img-container {
+    width: 30%;
+    margin: 20px;
+}
+
+.img {
+    width: 90%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.img-caption {
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    margin-top: -300px;
+    padding: 10px;
+    width: 10%;
+    background-color: #000;
+    color: #fff;
+}
+
+.about-p,
+.contact-p {
+    padding: 30px;
+    font-size: 20px;
+}
+
+.three-cards-container {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    height: 300px;
+    width: 20%;
+    margin: 20px;
+    border: solid 1px #F0F0F0;
+    text-align: center;
+}
+
+.card:hover {
+    border: solid 1px #909090;
+}
+
+.card-title {
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.card-icon {
+    opacity: 0.7;
+}
+
+.fa-handshake-o {
+    color: #9ACD32;
+}
+
+.fa-user-circle-o {
+    color: #528B8B;
+}
+
+.fa-wrench {
+    color: #8B4513;
+}
+
+.card-p {
+    width: 80%;
+    margin: auto;
+}
+
+.contact-p {
+    padding-bottom: 0 !important;
+}
+
+.form-container {
+    padding: 30px;
+}
+
+label {
+    font-size: 20px;
+    text-align: left;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px; 
+    border: 1px solid #F0F0F0;
+    border-radius: 0;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 25px;
+    resize: vertical;
+    font-size: 14px;
+}
+
+input[type=submit] {
+    background-color: #000;
+    color: #fff;
+    padding: 12px 50px;
+    border: none;
+    border-radius: 0;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+input[type=submit]:hover {
+    background-color: grey;
+}
+
+footer {
+    height: 30vh;
+    background-color: #000;
+}
+
+.social-media-icons {
+    text-align: center;
+    padding-top: 10vh;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px !important;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 20px;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: #fff;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: #fff;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: #fff;
+}
+
+.fa-facebook:hover,
+.fa-twitter:hover,
+.fa-google:hover {
+    cursor: pointer;
+    opacity: 0.6;
+}
+
